@@ -1,0 +1,6 @@
+a=int(input("Enter a number: "))
+b=int(input("Enter a number: "))
+print("XOR with 0: ", a^0)
+print("XOR with itself: ", a^a)
+print("Repeated values cancel: ",a^b^a)
+print("XOR result: ",a^b)
